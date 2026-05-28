@@ -18,6 +18,6 @@ Unlike typical academic projects that cache records in RAM, this system features
 ## Compilation & Execution
 The repository includes a strict `Makefile` using `-Wall`, `-Wextra`, and `-pedantic` flags to ensure compiler compliance and memory safety.
 
-To compile the project, run:
+To compile and execute the project, run:
 ```bash
-make
+make && ./bank
